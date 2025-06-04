@@ -46,7 +46,15 @@ pnpm format:check
 ### 4. Run tests
 
 ```bash
-pnpm test
+pnpm test:unit
+# using watch mode
+pnpm test:unit:watch
+```
+
+If you need to run tests only inside a single project, use the --project CLI option:
+
+```bash
+pnpm test:unit --project @monorepo/shared
 ```
 
 ## 📘 Running scripts
