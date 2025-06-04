@@ -2,6 +2,7 @@ import { configDefaults, defineConfig } from 'vitest/config';
 
 export default defineConfig({
 	test: {
+		root: import.meta.dirname,
 		projects: [
 			// matches every folder and file inside the `packages` folder
 			'packages/*',
