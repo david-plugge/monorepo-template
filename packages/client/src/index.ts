@@ -1,3 +1,3 @@
-import { name } from '@remote-testing/shared';
+import { name } from '@monorepo/shared';
 
 console.log('client:', name);

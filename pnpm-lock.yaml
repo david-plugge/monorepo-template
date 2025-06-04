@@ -44,7 +44,7 @@ importers:
 
   packages/client:
     dependencies:
-      '@remote-testing/shared':
+      '@monorepo/shared':
         specifier: workspace:*
         version: link:../shared
     devDependencies:
@@ -57,7 +57,7 @@ importers:
 
   packages/server:
     dependencies:
-      '@remote-testing/shared':
+      '@monorepo/shared':
         specifier: workspace:*
         version: link:../shared
     devDependencies:
