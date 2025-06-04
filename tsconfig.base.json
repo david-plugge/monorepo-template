@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"composite": true,
+		"declaration": true,
+		"declarationMap": true,
+		"declarationDir": "dist",
+		"module": "esnext",
+		"target": "esnext",
+		"moduleResolution": "bundler",
+		"esModuleInterop": true,
+		"verbatimModuleSyntax": true,
+		"isolatedModules": true,
+		"noUncheckedIndexedAccess": true,
+		"allowSyntheticDefaultImports": true,
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"sourceMap": true,
+		"outDir": "dist"
+	}
+}

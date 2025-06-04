@@ -1,0 +1,25 @@
+# Editor configs
+/.idea/
+/.vscode/
+
+# Output directories
+lib
+dist
+
+# Logs
+logs
+*.log
+
+# Coverage report
+coverage
+
+# Dependency directories
+node_modules
+
+# Cache
+.tsbuildinfo
+.eslintcache
+
+# Environment variables
+.env.local
+.env.test

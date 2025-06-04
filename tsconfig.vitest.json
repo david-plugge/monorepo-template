@@ -1,0 +1,12 @@
+{
+	"extends": "./tsconfig.base.json",
+	"compilerOptions": {
+		"noEmit": true,
+		"tsBuildInfoFile": "node_modules/.cache/typescript/tsconfig.vitest.tsbuildinfo",
+
+		"types": ["node"],
+		"module": "esnext",
+		"moduleResolution": "bundler"
+	},
+	"include": ["**/src/**/*.spec.ts", "env.d.ts"]
+}
